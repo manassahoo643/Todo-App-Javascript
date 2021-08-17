@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/020f7af30d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+    <div
+      class="
+    
+        bg-black
+        shadow-lg
+        border-5 
+        rounded-3
+      "
+      style="
+        background: rgba(126, 123, 124, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(91, 102, 233, 0.37);
+        backdrop-filter: blur(5.5px);
+        -webkit-backdrop-filter: blur(6.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        justify-content: center;
+        
+        
+      "
+    >
+      <div class="content-section">
+        <h1>
+          <span class="title"><i class="fas fa-clipboard-list"></i></span>
+        </h1>
+        <div class="inputDiv">
+          <input type="text" class="input" placeholder="Enter your todo..." />
+          <button class="add"><i class="fas fa-plus"></i></button>
+        </div>
+        <div class="container"></div>
+      </div>
+
+      <div class="button_cont" align="center">
+        <a class="remove_btn" onclick="removeAll()">Remove All</a>
+      </div>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
